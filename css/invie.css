@@ -16,6 +16,17 @@
   border: 2px solid red;
 }*/
 
+
+
+/*  Elemento para visualizar la caja */
+* {
+  border: 1px solid red;
+  margin: 10px;
+}
+
+
+
+
 body {
   font-family: 'Allerta', sans-serif;
   margin: 0;
@@ -60,8 +71,10 @@ input:focus, textarea:focus {
 }
 
 .background {
-  background-image: url('../images/globe-1849404_960_720.png');
+  background-image:url('../images/globe-1849404_960_720.png');
   background-size: cover;
+  width: auto;
+  height:auto;
 }
 
 .button {
